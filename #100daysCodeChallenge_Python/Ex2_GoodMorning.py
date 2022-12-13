@@ -9,7 +9,7 @@ msg_hr = int(time.strftime('%H'))
 if(4 <= msg_hr < 12):
     print(f"Good Morning Sir\n{msg}")
 elif(12<= msg_hr < 5):
-    print(f"Good Afternoon Sir\n{msg}")
+    print(f"Good Afternoon Sir\n{msg} ")
 elif(17<= msg_hr<21):
     print(f"Good Evening Sir\n{msg}")
 else:
