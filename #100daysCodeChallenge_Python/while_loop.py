@@ -28,7 +28,7 @@ else:
 # Emulte Do...while loop
 
 while True:
-    number = int(input("Enter a number: "))
+    number = int(input("Enter a number: ")) # asks user for the input
     print(number)   #prints the number irrespective of the condition
     if not number > 0:
-        break       #if the condition is true, the loop is exited, else the loop continues ...
+        break      #if the condition is true, the loop is exited, else the loop continues ...
