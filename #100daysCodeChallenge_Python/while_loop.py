@@ -24,3 +24,11 @@ while (count>0):    #executes till the condition remains true
     count -= 1
 else:
     print("I am inside else")   # as soon as the loop finishes or skips or breaks, the else part is executed
+
+# Emulte Do...while loop
+
+while True:
+    number = int(input("Enter a number: "))
+    print(number)   #prints the number irrespective of the condition
+    if not number > 0:
+        break       #if the condition is true, the loop is exited, else the loop continues ...
